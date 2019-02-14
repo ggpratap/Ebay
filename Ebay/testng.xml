@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  
+  
+  <test name="HTC"> <parameter name="deviceName_" value="Lenovo K6 POWER" /> 
+	 <parameter name="platformName" value="android" /> 
+	 <parameter name="udid" value="bb6ea85c" />
+	 <parameter name="platformVersion_" value="6.0.1" /> <parameter name="URL_" value="0.0.0.0:4723/wd/hub" />
+     <parameter name="apppackage" value="com.ebay.mobile" /> 
+     <parameter name="appWaitActivity" value="com.ebay.mobile.activities.MainActivity" />
+     <parameter name="bundleId" value="" />
+	 <classes> 
+      <class name="com.ebay.testscripts.DemoTest"/>
+	 </classes> </test> 
+	 
+</suite> 

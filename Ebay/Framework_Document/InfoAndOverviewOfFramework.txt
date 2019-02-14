@@ -1,0 +1,17 @@
+
+
+Execution flow and Overview-
+
+ --->Run pom.xml ( It contains all the jar dependencies and testng.xml which has to be executed.
+ 
+ --->Testng.Xml mentioned in pom.xml will have multiple tests with capabilities and additional info for all the devices execution
+ 
+ --->Classes Tag Which contains class to be executed will be triggered in testng.xml
+ 
+ --->Superclass which is extended by TestScript class will have variable where values passed through testng.xml will be assigned
+ 
+ --->superclass has method which will run before every test to pass capabilities value and initialize driver which will be used 
+    by main TestScript class
+ 
+ --->Reports will be created through extentManager and will be saved under TESTRESULT folder which contains device name,
+     class name , methods name and device os version with graphical representation

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57395" started-at="2019-02-13T18:10:14Z" finished-at="2019-02-13T18:11:11Z">
+    <groups>
+    </groups>
+    <test name="HTC" duration-ms="57395" started-at="2019-02-13T18:10:14Z" finished-at="2019-02-13T18:11:11Z">
+      <class name="com.ebay.testscripts.DemoTest">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:[DemoTest passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="35482" started-at="2019-02-13T18:10:14Z" finished-at="2019-02-13T18:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2bebb74f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lenovo K6 POWER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bb6ea85c]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.ebay.mobile]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[com.ebay.mobile.activities.MainActivity]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.0.0.0:4723/wd/hub]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyAppInstalled()[pri:1, instance:[DemoTest passed=0 failed=0 skipped=0]]" name="verifyAppInstalled" duration-ms="20445" started-at="2019-02-13T18:10:50Z" finished-at="2019-02-13T18:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppInstalled -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:[DemoTest passed=0 failed=0 skipped=0]]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-02-13T18:10:50Z" finished-at="2019-02-13T18:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ebay.testscripts.DemoTest.verifyAppInstalled() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:[DemoTest passed=0 failed=0 skipped=0]]" name="afterMethod" is-config="true" duration-ms="213" started-at="2019-02-13T18:11:10Z" finished-at="2019-02-13T18:11:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAppInstalled on [DemoTest passed=0 failed=0 skipped=0] status=SUCCESS method=DemoTest.verifyAppInstalled()[pri:1, instance:[DemoTest passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:[DemoTest passed=0 failed=0 skipped=0]]" name="tearDown" is-config="true" duration-ms="1242" started-at="2019-02-13T18:11:10Z" finished-at="2019-02-13T18:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.testscripts.DemoTest -->
+    </test> <!-- HTC -->
+  </suite> <!-- Suite -->
+</testng-results>
